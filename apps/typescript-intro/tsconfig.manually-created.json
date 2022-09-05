@@ -1,0 +1,10 @@
+// Created this file manually, then renamed for reference, but created a new config file using `tsc --init`
+
+{
+    "compilerOptions": {
+        "target": "ESNext", // Compiles to latest JS (default is ES)
+        "outDir": "./dist", // Puts generated code in this folder
+        "strict": false, // Generates strict statement top of js program, forces types to be added to functions, variables etc
+        "noEmitOnError": true // Prevent generate js program if an errors
+    }
+}

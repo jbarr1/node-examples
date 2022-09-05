@@ -42,9 +42,16 @@ Ready to start....
 Manually compile `typescript` down to `javascript`  
 `npx tsc ts-examples.ts`
 
-Setup `tsconfig.json`  
+Add compile script to `package.json`  
+`"build": "tsc"` - runs typescript compiler, and reports errors BUT will still generate javascript unless config options setup
+
+
+Setup `tsconfig.json`    
 Loads of config options. See `tsc --help`  
-- Add module
+- Add compile type options
+
+Note: you can generate a default `tsconfig.json` file, with all possible config commented out.  
+`tsc --init`
 
 ## References
 
