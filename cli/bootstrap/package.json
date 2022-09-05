@@ -1,0 +1,25 @@
+{
+    "name": "bootstrap",
+    "version": "1.0.1",
+    "description": "Example CLI tool to bootstrap an application and install some npm package. Include CLI args, or display interactive menu to allow user to configure",
+    "main": "index.js",
+    "type": "module",
+    "engines": {
+        "node": ">=14.16"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.0.1",
+        "commander": "^9.4.0",
+        "figlet": "^1.5.2",
+        "fs-extra": "^10.1.0",
+        "gradient-string": "^2.0.1",
+        "inquirer": "^9.0.2",
+        "ora": "^6.1.2"
+    }
+}

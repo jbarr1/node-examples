@@ -1,0 +1,19 @@
+{
+    "name": "utils",
+    "version": "1.0.0",
+    "description": "Below are some packages that might be useful as part of any CLI tool",
+    "engines": {
+        "node": ">=14.0 <20"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "semver": "^7.3.7"
+    }
+}
