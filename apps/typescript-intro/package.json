@@ -1,0 +1,15 @@
+{
+  "name": "typescript-intro",
+  "version": "1.0.0",
+  "description": "Example project to add `Typescript` to a `node.js` project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
